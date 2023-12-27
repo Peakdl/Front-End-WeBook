@@ -68,10 +68,8 @@ header{
 header {
 border-radius: 25px;
 color: rgb(94, 158, 241) !important;
-padding: 1rem;
-margin-left: 50rem;
-margin-right: 50rem;
-text-align: center;
+padding: 2rem;
+padding-left: 700px;
 }
 
 
@@ -140,16 +138,21 @@ box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
 
 .card-btn{
   display: block;
-  width: 48%;
+  /* width: 48%; */
+  padding: 8px;
   font-size: 2rem;
   text-align: center;
   color: rgb(255, 255, 255);
-  background-color: rgb(27, 69, 205);
-  border-radius: 200px;
+  background-color: rgb(57 73 125);
+  border-radius: 200px ;
   transition: 0.2s;
   cursor: pointer;
   letter-spacing: 0.1rem;
   margin-top: 1rem;
+  border: none;
+  position: relative;
+  left: 55%;
+  bottom: -27px;
 }
 
 .card-btn a:link
@@ -175,7 +178,8 @@ box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
 
 .card-btn:hover,
 .card-btn:active {
-  background-color: #000000;
+  background-color: #57575a;
+
 }
 
 .card-btn:hover span,
